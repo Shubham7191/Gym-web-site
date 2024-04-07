@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Form Validation</h1>
+
+<form>
+  <label for="difference">name</label><br>
+  <input type="text" id="difference" name=""><br>
+  <span id="differenceError" style="color: red;"></span><br><br>
+
+    <label for="difference">lname</label><br>
+  <input type="text" id="lname" name=""><br>
+  <span id="lnameError" style="color: red;"></span><br><br>
+
+    <label for="difference">age</label><br>
+  <input type="text" id="age" name=""><br>
+  <span id="ageError" style="color: red;"></span><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+document.getElementById("difference").addEventListener("input", function() {
+  let differenceInput = this.value;
+  let differenceRegex = /^[1-9]\d*$/; // Regex for positive integers excluding zero
+
+  if (!differenceRegex.test(differenceInput)) {
+    document.getElementById("differenceError").innerText = "Difference must be a positive integer";
+  } else {
+    document.getElementById("differenceError").innerText = "";
+  }
+});
+
+document.getElementById("lname").addEventListener("input", function() {
+  let differenceInput = this.value;
+  let differenceRegex = /^[1-9]\d*$/; // Regex for positive integers excluding zero
+
+  if (!differenceRegex.test(differenceInput)) {
+    document.getElementById("lnameError").innerText = "Difference must be a positive integer";
+  } else {
+    document.getElementById("lnameError").innerText = "";
+  }
+});
+
+document.getElementById("age").addEventListener("input", function() {
+  let differenceInput = this.value;
+  let differenceRegex = /^[1-9]\d*$/; // Regex for positive integers excluding zero
+
+  if (!differenceRegex.test(differenceInput)) {
+    document.getElementById("ageError").innerText = "Difference must be a positive integer";
+  } else {
+    document.getElementById("ageError").innerText = "";
+  }
+});
+</script>
+
+</body>
+</html>

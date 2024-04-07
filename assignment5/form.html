@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>form</title>
+   
+   <script type="text/javascript" src ="ff.js"></script>
+
+  <style type="text/css">
+  
+  
+
+#Register-parent{
+ /* display: none; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 32, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+  border:1px solid black;
+}
+ #Register-child{
+
+	border-radius:10px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+
+ }
+ #form-parent{
+ 
+	background-color:#F0E68C; 
+     height:700px;
+	width:800px;
+	overflow: auto; 
+	margin: 0 auto;
+ }
+
+ .labels{
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+	}
+
+ #heading{
+
+	margin-bottom:20px;
+	color:black;
+ }
+
+ .inputs{
+	width:420px;
+	height:30px;
+	border-radius:30px;
+	text-align:center;
+	border:1px solid black;
+ }
+ 
+ #address{
+	height:80px;
+	line-height:80px;
+ }
+
+ #button{
+	 height:40px;
+	 width:200px;
+	 text-align:center;
+	background-color:#DDA0DD
+ }
+
+
+ #button:hover{
+ background-color:#800080
+ }
+ #Register_close_button{
+
+	height:30px;
+	width:30px;
+	border:1px solid balck;
+	background-color: white;
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	margin-top: 5px;
+    margin-left: 750px;
+	cursor: pointer;
+ }
+ 
+  
+  </style>
+ 
+ </head>
+
+ <body>
+  
+
+
+
+	<div id="Register-parent">
+		<div id="Register-child">
+			<div id="form-parent">
+
+				<form action="" id="fom">
+					<div id="Register_close_button" onclick="obj.closeRegisterPopup()"><a>&times;</a></div>
+				<h1 id="heading">Registraction form </h1><br>
+
+					
+
+				<label for="" class="labels">First Name </label><br>
+				<input type="text" id="fName" class="inputs" placeholder="Enter your First name " oninput="validateParent.validateFirstName()" onkeypress="return validateParent.onlyCharacter(event)" /><br> 
+				<span id="sname" ></span> <br>
+
+				<label for="" class="labels"> last Name </label><br>
+				<input type="text" id="lName" class="inputs" placeholder="Enter your Last Name " oninput="validateParent.validateLastName()" onkeypress="return validateParent.onlyCharacter(event)"/><br> 
+				<span id="slname"></span><br>
+
+				<label for="" class="labels" id="labelDOB">Date of Birth </label><br>
+				<input type="text" id="DOB" class="inputs" placeholder="  DD/MM/YYYY " oninput="validateParent.validateDateOfBirth()" /><br>
+				<span id="sdob">hehe</span><br><br>
+
+
+				<label for="" class="labels">Age  </label><br>
+				<input type="text" id="fage" class="inputs" placeholder="Enter your Age  " /> 
+				<span id="sage"></span><br><br>
+
+				
+
+				<label for="" class="labels" id="labelGENDER">Gender :</label>
+				<label for="male" class="gender" id="labelMALE">Male</label>
+				<input type="radio" id="male" class="" name="gender" />
+				<label for="female" class="gender">Female</label>
+				<input type="radio" id="female" class=" " name="gender" />
+				<label for="otherInGender" class="gender">Other</label>
+				<input type="radio" id="otherInGender" class=" " name="gender" />
+				<span id="sgender">hehe</span><br><br>
+
+
+				<label for="" class="labels" id=""> Mobile No </label><br>
+				<input type="text" id="mobileNo" class="inputs" placeholder="Enter Mobile number in 10 digit" 
+					oninput="validateParent.validateNumber()"  onkeypress="return validateParent.onlyNumberKey(event)" /><br>
+				<span id="sMobile">hehe</span><br><br>
+				
+				
+				<label for="" class="labels" id="">Email</label><br>
+				<input type="text" id="email" class="inputs" placeholder="  Enter Email"  oninput="validateParent.validateGmail()"/><br>
+				<span id="sEmail">hehe</span><br><br>
+				
+				<label for="" class="labels" id="">Password</label><br>
+				<input type="password" id="password" class="inputs" placeholder="  Enter password" oninput="validateParent.validatePassword()" /><br>
+				<span id="sPassword">hehe</span><br><br>
+					
+				<label for="" class="labels" id="">Confirm Password</label><br>
+				<input type="password" id="confirm-Password" class="inputs" placeholder="  Enter password "  oninput="validateParent.validateConfirmPassword()"/><br>
+				<span id="sConfirm-Password">hehe</span><br><br>
+
+				
+
+				
+
+
+
+
+				<label class="labels">select coureses :</label>
+				<label class="labls">HTMl</label>
+				<input type="checkbox" id="html" name="subject" value="hmtl" class="courseOption" />
+				<label class="labls">Java</label>
+				<input type="checkbox" id="java" name="subject" value="Java" class="courseOption" />
+				<label class="labls">Python</label>
+				<input type="checkbox" id="Python" name="subject" value="Python" class="courseOption" /> <br>
+				 <span id="scourses"></span>
+
+
+
+
+				<br><br><label for="" class="labels">Address </label><br>
+				<textarea class="inputs" id="address" placeholder="Enter your Address  "></textarea> <br><br>
+
+				<label for="" class="labels" id="labelCity">Cities</label><br>
+				<select id="citySelect" class="inputs" name="city">
+
+					<option value="" class="inputs  ">Select</option>
+					<option value="pune" class="inputs  ">Pune</option>
+					<option value="mumbai" class="inputs ">Mumbai </option>
+					<option value="satara" class="inputs ">Satara</option>
+					<option value="sangalli" class="inputs ">sanagali</option>
+					<option value="kolhapur" class="inputs ">kolhapur</option>
+				</select>
+
+				<span id="scity"></span><br><br>
+
+		
+				<label for="" class="labels" id="">PinCode</label><br>
+				<input type="text" id="pinCode" class="inputs" placeholder=" Pincode " oninput="validateParent.validatePinCode()" onkeypress="return validateParent.onlyNumberKey(event)"  /><br>
+				<span id="sPinCode">hehe</span><br><br>
+
+				<button id="button" onclick="validator.validate(event)">Submit</button>
+
+
+			</form>
+
+
+		  </div>
+		</div>
+	</div>
+
+
+
+
+<!-- // -->
+
+ </body>
+</html>

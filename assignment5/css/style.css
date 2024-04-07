@@ -1,0 +1,673 @@
+*{
+	margin:0;
+	padding:0;
+}
+#main_First_id{
+	display: block;
+
+}
+.main-parent{
+	width:1200px;
+	margin:0 auto;
+}
+
+.header{
+	width:1200px;
+	height:600px;
+	background-image:url("../images/bgImage.jpeg");
+	background-size:cover;
+	display:inline-block;
+}
+
+#logo{
+	height:80px;
+	width:80px;
+	float:left;
+
+}
+
+#Gym-name
+{
+	float:left;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:10px;
+	margin-top:20px;
+}
+.ls{
+ float:left;
+ margin-left:10px;
+
+}
+.navbar{
+	width: 900px;
+	margin-top:40px;
+	margin-left:140px;
+}
+
+.navli{
+	float:left;
+	margin:5px 5px 5px 5px; 
+	list-style-type:none;
+    /* font-size: 20px; */
+	font-weight:bold;
+}
+
+.Nacor{
+	color:white;
+	text-decoration:none;
+}
+
+.Nacor:hover{
+	background-color:#fc6203;
+	padding:5px;
+
+}
+
+.para{
+	color:white;
+}
+.a{
+	margin-top:150px;
+	margin-left:150px;
+}
+
+#a1{
+	font-size:60px;
+	color:white;
+	margin-bottom:5px;
+}
+
+#a2{
+	font-size:50px;
+	color:white;
+}
+
+#a3{
+	margin-top:5px;
+	color:white;
+	font-size:20px;
+}
+
+
+
+/* ---------------------------------middle------------------------------------------------------- */
+
+
+
+.middle-parent{
+
+	width:1100px;
+	/* height:1170px; */
+	margin:50px;
+}
+
+.box1{
+	height:550px;
+}
+
+.box2{
+	height:550px;
+}
+
+.box1-float, .box1-float2{
+
+    float: left;
+    width: 345px;
+    height: 580px;
+    margin: 10px;
+	box-shadow: 2px 2px 9px 1px black
+}
+
+
+.boxImg{
+
+	width:345px;
+	height:250px;
+}
+.picName{
+	margin-top:10px;
+	text-align:center;
+	font-size:50px;
+
+}
+.designation{
+
+	text-align: center;
+	font-size:25px;
+	color:red;
+	font-style: italic;
+
+}
+
+.belowText1{
+	text-align:center;
+}
+
+.imgBelow{
+	margin:10px 10px 2px 10px;
+	width:320px;
+	height:40px;
+}
+
+.belowText2{
+
+	height:40px;
+	background-color:red;
+	color:white;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+}
+
+/* -----------------------------------------footer ------------------------------------------- */
+
+.last{
+	margin-top:40px;
+	width:1200px;
+}
+
+.section1{
+	width:1200px;
+	/* height:200px; */
+	border:1px solid black;
+}
+
+#square{
+	width:200px;
+	height:200px;
+	background-color:#d13b1d;
+	float:left;
+}
+
+.footB{
+
+	background-image:url("../images/bgImage.jpeg");
+}
+
+.footMiddle{
+	 float:left;
+	color:white;
+	 font-size: 26px;
+	width: 500px;
+	 margin: 27px 20px 0px 25px;
+}
+
+
+
+
+.buttonF{
+	float:right;
+	/* margin-top: 50px;
+    margin-right: 500px; */
+	margin:70px,160px,0px,0px;
+	padding:20px; 
+	background-color:#fc3205;
+}
+#Footer-button{
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+    border: none;
+	cursor: pointer;
+    background-color:transparent;
+	font-weight: bold;
+}
+
+
+
+
+.section2{
+	width:1200px;
+	/* height:550px; */
+	border:1px solid black;
+	background-color:black;
+}
+
+.section2-parent{
+	padding: 40px;
+    /* width: 1120px; */
+    height: 600px;
+}
+
+.last-box{
+    float: left;
+    width: 340px;
+    height: 490px;
+    border: 1px solid black;
+	margin: 10px;
+
+}
+
+#footer-logo{
+	height:100px;
+	width:100px;
+	float:left;
+	opacity:0.5;
+
+}
+
+#footer-gym-name{
+	    float: left;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#right-above{
+	font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#rights{
+	margin-top:20px;
+	color:white;
+	font-size: 20px;
+}
+
+
+#footer-class{
+
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:30px;
+	color:white;
+
+}
+
+.img1{
+
+    width: 151px;
+    height: 140px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+#float-1{
+	float:left;
+
+}
+
+#float-2{
+	float:left;
+
+}
+#float-3{
+	float:left;
+
+}
+.footer-middle-text{
+
+
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.float-text{
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+	color:white;
+	font-size: 10px;
+}
+
+
+
+#stay{
+	font-weight:bold;
+	margin-top:10px;
+	font-size:40px;
+	margin-bottom:10px;
+	color:white;
+}
+
+
+.start{
+
+	color:#ede7e4;
+	margin-top:5px;
+}
+
+.icons{
+
+	height:60px;
+	width:70px;
+	float:left;
+	margin:10px;
+	background-color:transparent;
+}
+
+
+.stay-text{
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+
+	color:white;
+	
+}
+
+#social-Name{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:white;
+}
+.handle{
+	width:380px;
+	height:120px;
+	
+
+}
+.handle-Box{
+
+	width:67px;
+	height:100px;
+	margin:10px;
+	background-color:white;
+	float:left;
+
+}
+
+.social-img{
+	width:50px;
+	height:80px;
+	margin:10px;
+
+
+}
+
+/*----------------------------------------------------------------*/
+
+
+#loginPopup {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 32, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+
+.popup-content {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.close {
+    color: red;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.in{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#loginSubmitBtn {
+    background-color:#03C03C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#loginSubmitBtn:hover {
+    background-color: #006400;
+}
+#LoginRegister_For_New_User{
+margin-top: 10px;
+	color:blue;
+	cursor: pointer;
+}
+#LoginRegister_For_New_User:hover{
+	
+		color:rgb(80, 129, 244);
+		
+	}
+
+/* //------------------------Registraction form-------------------------- */
+
+
+
+#Register-parent{
+	 display: none; 
+	   height: 100%;
+	   width: 100%;
+	   background-color: rgba(33, 33, 32, 0.8);
+	   position: fixed;
+	   top: 0;
+	   left: 0;
+	 border:1px solid black;
+   }
+	#Register-child{
+   
+	   border-radius:10px;
+	   padding: 40px;
+	   position: absolute;
+	   top: 50%;
+	   left: 50%;
+	   transform: translate(-50%, -50%);
+	   text-align:center;
+   
+	}
+	#form-parent{
+	
+	   background-color:#F0E68C; 
+		height:700px;
+	   width:800px;
+	   overflow: auto; 
+	   margin: 0 auto;
+	}
+   
+	.labels{
+	   font-weight:bold;
+	   font-size:20px;
+	   color:black;
+	   }
+   
+	#heading{
+   
+	   margin-bottom:20px;
+	   color:black;
+	}
+   
+	.inputs{
+	   width:420px;
+	   height:30px;
+	   border-radius:30px;
+	   text-align:center;
+	   border:1px solid black;
+	}
+	
+	#address{
+	   height:80px;
+	   line-height:80px;
+	}
+   
+	#button{
+		height:40px;
+		width:200px;
+		text-align:center;
+	   background-color:#DDA0DD
+	}
+   
+   
+	#button:hover{
+	background-color:#800080
+	}
+	#Register_close_button{
+
+		height:30px;
+		width:30px;
+	
+		background-color: white;
+		text-align: center;
+		color: red;
+		font-size: 30px;
+		font-weight: bolder;
+		margin-top: 5px;
+		margin-left: 750px;
+		cursor: pointer;
+	 }
+	 #Register_close_button a{
+
+		display: block;
+		height: 30px;
+		width: 30px;
+	 }
+
+	 /* ---------------------------------- table ------------------------------ */
+
+	 
+	 /* #Table_pop_up {
+		width: 1200px;
+		border-collapse: collapse;
+		margin: 0 auto;
+		display: block;
+	}
+	  #table_Head th {
+		background-color: #f2f2f2;
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+	
+
+	#Table_pop_up td {
+		padding: 8px;
+		border-bottom: 1px solid #ddd;
+	}
+	
+  
+	
+
+	#Table_pop_up tr:hover {
+		background-color: #ddd;
+	}
+	#table_Head th {
+		background-color: #f2f2f2;
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+
+	#TableBody td {
+		padding: 8px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	#TableBody tr:hover {
+		background-color: #ddd;
+	}
+	
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+ #TableForPopUP {
+display: none;
+	 height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 32, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0; 
+
+	
+}
+.TableParent{
+	
+padding: 40px;
+border-radius: 10px;
+width: 1200px;
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align:center;
+border-collapse: collapse;
+background-color: antiquewhite;
+
+}
+
+#table_Head th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+
+#Table_pop_up td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#Table_pop_up tr:hover {
+    background-color: #ddd;
+}
+
+#TableBody td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#TableBody tr:hover {
+    background-color: #ddd;
+}
+
+
